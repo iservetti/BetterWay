@@ -74,7 +74,7 @@
 
 	(function init() {
 	  function getTimeRemaining(endtime) {
-	    var t = Date.parse("October 31, 2022") - Date.parse(new Date());
+	    var t = Date.parse("December 31, 2022") - Date.parse(new Date());
 	    var seconds = Math.floor((t / 1000) % 60);
 	    var minutes = Math.floor((t / 1000 / 60) % 60);
 	    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
